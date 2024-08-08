@@ -16,6 +16,10 @@
     src: url(font/Inspire-Bold.4ff15ddc93445342649194969715b0b5.woff2);
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 html {
     font-family: Inspire, sans-serif;
 }
@@ -23,26 +27,35 @@ html {
 body {
     background-color: #040714;
     line-height: 24px;
+    overflow-x: hidden;
 }
 
+.links_nav {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    margin: 3vh 5vw 0 0;
+}
 
 .botao-login {
-    text-decoration: none;
-    color: #ffff;
-    padding: 16px 20px;
-    border: solid #c0c0c0 1px;
-    display: block;
-    margin: 10px 41px 0px auto;
-    max-width: fit-content;
-    border-radius: 4px;
-    letter-spacing: 1px;
-        transition: all 0.3s;
+    width: fit-content;
+}
+
+.botao-login:nth-child(2) img {
+    width: 3vw;
+}
+
+.botao-login img {
+    width: 2.5vw;
 }
 
 .botao-login:hover {
-    background-color: #ffff;
-    color: #000;
-    transition: all 0.3s;
+    scale: 1.1;
+}
+
+.secao-assinatura {
+    display: flex;
+    justify-content: space-between;
 }
 
 .secao-assinatura_textos {
@@ -58,7 +71,6 @@ body {
     width: 25%;
     transition: all 0.3s;
 }
-
 
 .logo-disney-plus:hover {
     transform: scale(1.1);
@@ -76,7 +88,6 @@ body {
     font-size: 1.75em;
     margin-top: 0px;
 }
-
 
 h1,
 .subtitulo-secao_assinatura {
@@ -101,7 +112,9 @@ h1,
     letter-spacing: 2px;
     line-height: 27px;
     transition: all 0.3s;
+    border: 1px solid #02d6e8;
 }
+
 
 .botaoassinatura:hover {
     background-color: #040714;
@@ -118,15 +131,9 @@ h1,
 }
 
 
-.secao-assinatura {
-    display: flex;
-    justify-content: space-between;
-}
-
 .botoes-assinatura {
     display: flex;
     gap: 1.5em;
-
 }
 
 .img-series {
@@ -144,45 +151,101 @@ h1,
 }
 
 .detalhes-planos {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     color: #ffff;
+    width: fit-content;
 }
 
 .setinha {
     opacity: 0.7;
     transform: rotate(90deg);
     width: 2vw;
-    display: flex;
-    margin: 12vh 5vw;
+    position: relative;
+    animation: mexerSeta infinite .7s both ease-in-out;
+}
+
+@keyframes mexerSeta {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 5px;
+    }
+
+    100% {
+        top: 0px;
+    }
 }
 
 .secao-2-background {
-    background: url(../img/lookatme.png) no-repeat center;
-    background-size: cover;
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
+    height: 100vh;
+}
+
+.secao-2_img {
+    width: 50vw;
+    height: auto;
+    cursor: pointer;
+}
+
+.secao-2_text {
+    width: 40vw;
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .secao-2-background-text {
-    padding: 27vh 0 0 5vw;
-    width: 33vw;
     font-size: 1.5em;
     font-weight: 700;
-    margin: 24px 0px;
+    margin: 24px 0;
     line-height: 28.8px;
 }
 
 .secao-2-background-text2 {
-    padding: 0vh 0 0 5vw;
-    width: 33vw;
     font-size: 1em;
     line-height: 19.2px;
 }
 
 .secao-2-background-text3 {
-    padding: 0vh 0 0 3.5vw;
-    margin: 20px;
+    margin: 20px 0;
+}
 
+.secao-2_button {
+    display: block;
+    width: fit-content;
+    cursor: pointer;
+    background: #02d6e8;
+    color: #000;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    line-height: 27px;
+    padding: 16px 5px;
+    width: 200px;
+    border: 1px solid #02d6e8;
+    text-decoration: none;
+}
+
+.secao-2_button:hover {
+    background-color: #040714;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.3s;
+    transition: scale 0s;
+}
+
+.secao-2_button:active {
+    scale: 0.95;
 }
 
 .planos-titulo {
@@ -192,6 +255,7 @@ h1,
     font-weight: 700;
     text-align: center;
 }
+
 .planos-subtitulo {
     color: #c0c0c0;
     text-align: center;
