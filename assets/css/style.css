@@ -1,0 +1,199 @@
+@font-face {
+    preload: true;
+    font-display: optional;
+    font-family: Inspire;
+    font-style: normal;
+    font-weight: 400;
+    src: url(font/Inspire-Regular.f2199f841165c4ddbafcf177da3ef974.woff2);
+}
+
+@font-face {
+    preload: true;
+    font-display: swap;
+    font-family: Inspire;
+    font-style: normal;
+    font-weight: 700;
+    src: url(font/Inspire-Bold.4ff15ddc93445342649194969715b0b5.woff2);
+}
+
+html {
+    font-family: Inspire, sans-serif;
+}
+
+body {
+    background-color: #040714;
+    line-height: 24px;
+}
+
+
+.botao-login {
+    text-decoration: none;
+    color: #ffff;
+    padding: 16px 20px;
+    border: solid #c0c0c0 1px;
+    display: block;
+    margin: 10px 41px 0px auto;
+    max-width: fit-content;
+    border-radius: 4px;
+    letter-spacing: 1px;
+        transition: all 0.3s;
+}
+
+.botao-login:hover {
+    background-color: #ffff;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.secao-assinatura_textos {
+    width: 45vw;
+    margin: 8vh 0 0 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.logo-disney-plus {
+    width: 25%;
+    transition: all 0.3s;
+}
+
+
+.logo-disney-plus:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+
+}
+
+.basic-bold-text {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 24px 0px;
+}
+
+.subtitulo-secao_assinatura {
+    font-size: 1.75em;
+    margin-top: 0px;
+}
+
+
+h1,
+.subtitulo-secao_assinatura {
+    color: #ffff;
+}
+
+.disneyplus-first-rules {
+    color: #c0c0c0;
+}
+
+.botaoassinatura {
+    width: 300px;
+    margin: 10px 0px;
+    color: #02172a;
+    padding: 16px 5px;
+    font-size: 1.2em;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #02d6e8;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    line-height: 27px;
+    transition: all 0.3s;
+}
+
+.botaoassinatura:hover {
+    background-color: #040714;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.3s;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+
+.botaoassinatura2 {
+    transform: translateZ(20px);
+}
+
+
+.secao-assinatura {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes-assinatura {
+    display: flex;
+    gap: 1.5em;
+
+}
+
+.img-series {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    width: 600px;
+    height: 450px;
+}
+
+.video-player-tag {
+    width: 550px;
+    border-radius: 24px;
+}
+
+.detalhes-planos {
+    color: #ffff;
+}
+
+.setinha {
+    opacity: 0.7;
+    transform: rotate(90deg);
+    width: 2vw;
+    display: flex;
+    margin: 12vh 5vw;
+}
+
+.secao-2-background {
+    background: url(../img/lookatme.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+
+.secao-2-background-text {
+    padding: 27vh 0 0 5vw;
+    width: 33vw;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 24px 0px;
+    line-height: 28.8px;
+}
+
+.secao-2-background-text2 {
+    padding: 0vh 0 0 5vw;
+    width: 33vw;
+    font-size: 1em;
+    line-height: 19.2px;
+}
+
+.secao-2-background-text3 {
+    padding: 0vh 0 0 3.5vw;
+    margin: 20px;
+
+}
+
+.planos-titulo {
+    color: #fff;
+    margin: 45px;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+.planos-subtitulo {
+    color: #c0c0c0;
+    text-align: center;
+    margin: 10px;
+}
