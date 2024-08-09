@@ -37,28 +37,28 @@ body {
     margin: 3vh 5vw 0 0;
 }
 
-.botao-login {
+.botao-midias {
     width: fit-content;
 }
 
-.botao-login:nth-child(2) img {
+.botao-midias:nth-child(2) img {
     width: 3vw;
 }
 
-.botao-login img {
+.botao-midias img {
     width: 2.5vw;
 }
 
-.botao-login:hover {
+.botao-midias:hover {
     scale: 1.1;
 }
 
-.secao-assinatura {
+.secao-canais {
     display: flex;
     justify-content: space-between;
 }
 
-.secao-assinatura_textos {
+.secao-canais_textos {
     width: 45vw;
     margin: 8vh 0 0 5vw;
     display: flex;
@@ -67,12 +67,12 @@ body {
     justify-content: center;
 }
 
-.logo-disney-plus {
+.logo-oceanflix {
     width: 25%;
     transition: all 0.3s;
 }
 
-.logo-disney-plus:hover {
+.logo-oceanflix:hover {
     transform: scale(1.1);
     transition: all 0.3s;
 
@@ -84,21 +84,21 @@ body {
     margin: 24px 0px;
 }
 
-.subtitulo-secao_assinatura {
+.subtitulo-secao_canais {
     font-size: 1.75em;
     margin-top: 0px;
 }
 
 h1,
-.subtitulo-secao_assinatura {
+.subtitulo-secao_canais {
     color: #ffff;
 }
 
-.disneyplus-first-rules {
+.oceanflix-first-rules {
     color: #c0c0c0;
 }
 
-.botaoassinatura {
+.botao-oceanflix {
     width: 300px;
     margin: 10px 0px;
     color: #02172a;
@@ -116,7 +116,7 @@ h1,
 }
 
 
-.botaoassinatura:hover {
+.botao-oceanflix:hover {
     background-color: #040714;
     border: 1px solid #fff;
     color: #fff;
@@ -126,17 +126,17 @@ h1,
 }
 
 
-.botaoassinatura2 {
+.botao-oceanflix2 {
     transform: translateZ(20px);
 }
 
 
-.botoes-assinatura {
+.botoes-signature {
     display: flex;
     gap: 1.5em;
 }
 
-.img-series {
+.video-amv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +150,7 @@ h1,
     border-radius: 24px;
 }
 
-.detalhes-planos {
+.detalhes-projetos {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -180,7 +180,7 @@ h1,
     }
 }
 
-.secao-2-background {
+.secao-2-edityoutube {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,19 +203,19 @@ h1,
 }
 
 
-.secao-2-background-text {
+.secao-2-edityoutube-text {
     font-size: 1.5em;
     font-weight: 700;
     margin: 24px 0;
     line-height: 28.8px;
 }
 
-.secao-2-background-text2 {
+.secao-2-edityoutube-text2 {
     font-size: 1em;
     line-height: 19.2px;
 }
 
-.secao-2-background-text3 {
+.secao-2-edityoutube-text3 {
     margin: 20px 0;
 }
 
@@ -248,7 +248,7 @@ h1,
     scale: 0.95;
 }
 
-.planos-titulo {
+.projetos-titulo {
     color: #fff;
     margin: 45px;
     font-size: 2.5em;
@@ -256,7 +256,7 @@ h1,
     text-align: center;
 }
 
-.planos-subtitulo {
+.projetos-subtitulo {
     color: #c0c0c0;
     text-align: center;
     margin: 10px;
