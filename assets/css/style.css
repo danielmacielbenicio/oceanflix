@@ -262,6 +262,12 @@ h1,
     margin: 10px;
 }
 
+.projects-imgs-section {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
 
 
 
