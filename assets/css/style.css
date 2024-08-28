@@ -265,7 +265,6 @@ h1,
 
 .projects-imgs-section {
     display: flex;
-    justify-content: center;
     overflow-x: auto;
     gap: 10px;
   }
