@@ -261,3 +261,7 @@ h1,
     text-align: center;
     margin: 10px;
 }
+
+.img-section {
+    scale: 0.5;
+}
