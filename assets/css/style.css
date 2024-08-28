@@ -266,6 +266,15 @@ h1,
     display: flex;
     overflow-x: auto;
     gap: 10px;
+
+  }
+
+  img-section {
+    border-radius: 20px;
+  }
+
+  .secao-videos {
+    margin: 20px;
   }
 
 
