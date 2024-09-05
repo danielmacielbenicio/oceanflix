@@ -266,12 +266,12 @@ h1,
     display: flex;
     overflow-x: auto;
     gap: 10px;
-    width:300px;
 
   }
 
   .img-section {
     border-radius: 20px;
+    width: 300px;
   }
 
   .secao-videos {
